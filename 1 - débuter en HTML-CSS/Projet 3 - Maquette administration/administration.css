@@ -1,0 +1,181 @@
+.ad {
+    margin-left: 83%;
+}
+
+.hi {
+    color: rgb(179, 179, 179);
+    margin-left: 75%;
+}
+
+.pseu {
+    margin-left: 0px;
+}
+
+aside {
+    flex: 1;
+    background-color: rgb(31, 31, 47);
+}
+
+.las{
+    color: rgb(133, 131, 151);
+    margin: 2.5em;
+    margin-left: 3.5em;
+}
+
+.admin {
+    color: white;
+    background-color: rgb(27, 26, 36);
+    margin: 0;
+    padding: 8px;
+}
+
+a:link {
+    color: rgb(0, 183, 255);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    margin-left: 7px;
+    padding: 8px 1px 10px 1px;
+}
+
+h4 {color: black;}
+
+h6 {
+    color: rgb(72, 68, 97);
+    margin-left: 2em;
+    margin-bottom: -2em;
+}
+
+p {
+    margin: 5px;
+    margin-left: 15px;
+    font-size: x-small;
+}
+
+
+a:visited {
+    color: rgb(183, 4, 238);
+}
+
+a:active {
+    color: red;
+}
+
+
+main {
+    flex: 5;
+    background-color: rgb(232, 231, 238);
+}
+
+.admin1 {
+    display: flex;
+    background-color: white;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+.Arialabel ul {
+    display: flex;
+}
+    
+.Arialabel li::before {
+    content: ".";
+}
+    
+.Arialabel li:first-child::before {
+    content: "";
+}
+
+li{
+    color: rgb(179, 179, 179);
+    list-style: none;
+    font-size: x-small;
+    margin-top: -3px;
+}
+
+.li{margin-left: -3em;}
+  
+.divp {
+    background-color: white;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+a:hover {
+    background: rgb(7, 7, 7);
+    border-radius: 3px;
+}
+
+.divc {
+    background-color: white;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.bd {
+    margin-left: 10px;
+    color: black;
+    padding: 5px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.trm {border-bottom: 1.5px solid rgb(231, 231, 231);}
+
+.tfd {
+    color: rgb(179, 179, 179);
+    margin-left: 9px;
+    margin-top: -5px;
+    font-size: x-small;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: -13.3em;
+    
+
+}
+
+th {
+    color: black;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 10px; 
+    text-align: left;
+    font-size: x-small
+}
+
+td {
+    border: 1px solid rgb(231, 231, 231);
+    padding: 15px;
+    font-size: x-small;
+}
+
+body {
+    display: flex;
+    color: rgb(117, 118, 126);
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    padding: 20px;
+}
+
+.divd {
+    display: flex;
+    background-color: white;
+    margin: 0px;
+    margin-top: 6em;
+    padding: 12px;
+}

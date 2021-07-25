@@ -1,0 +1,569 @@
+.body {
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0d0c22;
+  background: #ffffff;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+header {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 100%;
+  width: 100%;
+  padding: 0 24px;
+}
+
+.boutonmenuprincipal {
+  color: #6e6d7a;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.boutonmenuprincipal:hover {
+  background-color: #6e0037;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 12px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 500;
+}
+
+.dropdown-child {
+  display: none;
+  text-decoration: none;
+  background-color: #ffffff;
+  min-width: 50px;
+  position: absolute;
+  align-items: center;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #6e6d7a;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.lemid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0d0c22;
+}
+.lesignin {
+  margin-top: 23px;
+  text-decoration: underline;
+  color: #ea4c89 !important;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.dropdown-child {
+  color: rgb(0, 0, 0);
+
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.Footerbas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 75px;
+  margin-right:75px;
+  
+}
+.logo7888{
+  width:15px;
+  height:15px;
+}
+.nombre{
+  color: #0d0c22;
+}
+footer {
+  
+  display: flex;
+  justify-content: right;
+ 
+  padding-left: 32px;
+  padding-right: 32px;  
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  color: #0d0c22;
+  background-color: #fafafb;
+  margin-top: 32px;
+  
+}
+.containerimg {
+
+  display: flex;
+  justify-content: space-around;
+  background-color: #fafafb;
+  box-sizing: border-box;
+  font-size: 100%;
+  width: 100%;
+}
+.imgconteiner {
+  flex-direction: column;
+  float: right;
+}
+.imagerose{
+  fill:#ea4c89;
+  width:104px;
+  padding: 0px;
+}
+.logo785, .letexthaut, .conebas{
+  display: flex;
+}
+.logotext{
+  display: flex;
+  flex-direction: row;
+  }
+.imgconteiner,
+.editeur {
+  display: flex;
+}
+.editeur{
+  justify-content: flex-end;
+}
+.editeur a{
+  margin-left: 5px;
+}
+.Navbardropdown2{
+  display: block;
+    content: attr(title);
+    font-weight: 500;
+    height: 0;
+    line-height: 20px;
+    padding: 10px 12px 10px 12px;
+}
+.container2 {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+}
+div {
+  display: block;
+}
+.lienuser{
+  text-decoration: underline !important;
+  color:#6e6d7a;
+}
+.bouton {
+  text-align: right;
+}
+
+.sign1 {
+  text-decoration: none;
+}
+nombredribbble{
+  display: flex;
+}
+.linkcolone {
+  display: flex;
+  flex-direction: column;
+}
+
+body,
+html,
+span {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+  background: transparent;
+}
+.label{
+  color: #0d0c22;
+  background-color: transparent;
+  display: flex;
+    padding: 6px 14px;
+    cursor: pointer;
+ 
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: baseline;
+    border-color: #6e6d7a !important;  
+    border: 1px solid;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 0px 1px #e7e7e9 inset;
+    margin-top: 20%;
+    margin-right: 30px;
+}
+
+.navbar2 {
+  text-decoration-line: none;
+  display: flex;
+}
+.navbar26 {
+  color: #9e9ea7;
+  vertical-align: middle;
+}
+
+.Link {
+  color: #6e6d7a;
+  text-decoration: none;
+}
+.iconebas{
+  padding-left: 35px;
+  color:#6e6d7a;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.monboutonfavoris{
+  color: #ffffff;
+  background-color: #6e6d7a;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 4px;
+  padding: 2px 4px;
+  height: 14px;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+.monboutonfavoris:hover{
+  background-color: #ea4c89;
+}
+.iconebas2{
+ padding-left: 8px; 
+ color:#6e6d7a;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #6e6d7a;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 12px;
+}
+.leftblock ul {
+  display: inline-block;
+}
+.Navbardropdown2 {
+  margin: 5px;
+  color: #6e6d7a;
+  text-decoration: none;
+  display: flex;
+}
+
+.container-large {
+  display: flex;
+  flex-direction: column;
+}
+
+.icone-loupe {
+  background-color: #ffffff;
+  color: #6e6d7a;
+  border: 0px;
+}
+
+.SignUP0 {
+  margin-right  : 10px;
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 16px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  background: #ea4c89;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  height: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 16px 0;
+}
+.SignUP01 {
+  color: #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  background: #ea4c89;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  height: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 10px;
+  max-width: 400px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.Signin {
+  margin-left: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6e6d7a;
+  text-decoration: none;
+}
+.descdrop {
+  color: #6e6d7a;
+  margin-top: 4px;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 13px;
+  word-break: break-word;
+}
+.navbar54,
+.container,
+.ul {
+  display: flex;
+}
+
+.navbar54,
+.container {
+  width: 100%;
+}
+
+.container {
+  justify-content: space-between;
+}
+
+.logon {
+  flex-direction: row;
+  box-sizing: border-box;
+  list-style: none;
+  /* padding-inline-start: 700px; */
+}
+.LinkHead {
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #0d0c22;
+  margin-top: 32px;
+}
+.Link {
+  display: block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #3d3d4e;
+  margin-top: 16px;
+}
+
+span {
+  font-weight: 400;
+  line-height: 20px;
+  color: #9e9ea7;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+
+.Formviews {
+  display: flex;
+}
+.filter {
+  display: flex;
+  text-align: center;
+  font-weight: normal;
+  color: #0d0c22;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 120px;
+
+}
+.textconteiner{
+  padding-left: 72px;
+    padding-right: 72px;
+    height: 480px;
+    font-size: 100%;
+    width: 100%;
+
+}
+
+.Navbar44 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px 20px 20px 32px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0d0c22;
+}
+.Popular {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 4;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  color: #6e6d7a;
+  box-shadow: 0px 0px 0px 1px #e7e7e9 inset;
+  min-width: 115px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  padding-right: 35px;
+  background: #f3f3f4;
+  display: inline-block;
+  padding: 10px 16px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+a:-webkit-any-link {
+  color: #6e6d7a;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+select {
+  color: #0d0c22;
+  background-color: transparent;
+  border: 0px solid rgb(207, 210, 219);
+  box-shadow: 0px 0px 0px 1px #e7e7e9;
+  background-size: 0.8em;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 0.4em) center;
+  width: 93.08;
+}
+.cardpack1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.fas fa-search {
+  margin-left: 0;
+}
+bouton {
+  padding: 2px 3px;
+}
+.card-text {
+  display: flex;
+  flex: inline;
+  color: #3d3d4e;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 8px;
+  color: #0d0c22;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: 10px;
+}
+.lacard45{
+  width:274px; 
+  height:205px; 
+}
+.logo78{
+  width:24px;
+  height:24px;
+}
+.image8076{
+  width:76;
+  height:80
+;}
+.imagewebp{
+  width:510px;
+  height:312px;
+}
+.card-image {
+  border-radius: 32px;
+}
+img {
+  padding-left: 12px;
+}
+video {
+  border-radius: 12px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+
+hr{
+  width: 92%;
+  margin: 40px auto;
+  color:#6e6d7a52;
+  background-color: #6e6d7a52 ;
+}

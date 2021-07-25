@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulaire de satisfaction</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+
+<body>
+    <h1>freeCodeCamp Survey Form</h1>
+    <p>Thank you for taking to help us improve the platform</p>
+
+
+    <form action="script.php" method="get">
+
+        <fieldset>
+          
+
+            <label>Name</label>
+            <input class="c" type="text" name="Nom" value="  Enter your name" size="50"/>
+
+            <label>Email</label>
+            <input class="c" type="text" name="Mail" value="  Enter your Email" size="50"/>
+
+            <label>Age (optional)</label>
+            <input class="c" type="text" name="Votre site" value="  Age" size="50" />
+
+            <label class="a">Which option best describes your current role?</label>
+            <select name="15165" >
+                <option>select current role</option>
+                <option value="ROle1">Role1</option>
+                <option value="Role2">Role2</option>
+                <option value="Role3">Role3</option>
+            </select>
+
+            <label class="a">Would you recommend freeCodeCamp to a friend?</label>
+            <label>Definitely<input class="b" type="radio" name="Definitely" value="2" checked /></label>
+
+            <label>Maybe<input class="b" type="radio" name="Maybe" value="1" /></label>
+
+            <label>Not sure<input class="b" type="radio" name="Not-sure" value="0" /></label>
+
+
+            <label class="d">What is your favorite feature of freeCodeCamp?</label>
+            <select name="14242">
+                <option value=""> select an option</option>
+                <option value="FREE"> FREE</option>
+                <option value="CODE"> CODE</option>
+                <option value="CAMP"> CAMP</option>
+            </select>
+
+            <label class="a">What would you like to see improved? (Check all that apply)</label>
+            <label>Front-end Projects<input class="b" name="case1" type="checkbox" value="oui" /></label>
+
+            <label>Back-end Project<input class="b" name="case2" type="checkbox" value="oui" /></label>
+
+            <label>Data Visualization<input class="b" name="case3" type="checkbox" value="oui" /></label>
+
+            <label>Challenges<input class="b" name="case4" type="checkbox" value="oui" /></label>
+
+            <label>Open Source Community<input class="b" name="case5" type="checkbox" value="oui" /></label>
+
+            <label>Gitter help rooms<input class="b" name="case6" type="checkbox" value="oui" /></label>
+
+            <label>Videos<input class="b" name="case7" type="checkbox" value="oui" /></label>
+
+            <label>City Meetups<input class="b" name="case8" type="checkbox" value="oui" /></label>
+
+            <label>Wiki<input class="b" name="case9" type="checkbox" value="oui" /></label>
+
+            <label>Forum<input class="b" name="case10" type="checkbox" value="oui" /></label>
+
+            <label>Additional Courses<input class="b" name="case11" type="checkbox" value="oui" /></label>
+
+
+            <label class="d">Any comments or suggestions?</label>
+            <div>
+            <textarea name="textarea" rows="8" cols="32">Enter your comment here...</textarea>
+            </div>
+            <div>
+                <input class="submit" type="submit" name="validation" value="Submit" />
+            </div>
+        </fieldset>
+    </form>
+
+    <form action="script.php" method="post">
+       
+    </form>
+
+</body>
+
+</html>
