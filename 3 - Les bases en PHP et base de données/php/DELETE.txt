@@ -1,4 +1,0 @@
-INSERT INTO niveau VALUES (NULL,'test');
-DELETE FROM niveau WHERE id=//idtest
-
-DELETE FROM niveau WHERE id= //id
