@@ -1,3 +1,4 @@
+<!--LA CONNEXION AU PDO-->
 <?php
 try {
     $bdd = new PDO('mysql:host=localhost;dbname=bookmark;charset=utf8', 'root', '');
@@ -10,6 +11,7 @@ $query = $bdd->query("SELECT * FROM bookmarks");
 $resultat = $query->fetchAll();
 
 ?>
+
 <table>
     <thead>
         <tr>
@@ -19,6 +21,7 @@ $resultat = $query->fetchAll();
         </tr>
     </thead>
     <tbody>
+    
         <?php
         foreach ($resultat as $key => $variable) {
 
@@ -31,6 +34,7 @@ $resultat = $query->fetchAll();
         ?>
     </tbody>
 </table>
+<!--LE FORMULAIRE-->
 <div class="container">
     <form method="post" action="">
 
@@ -42,6 +46,7 @@ $resultat = $query->fetchAll();
 
         <label for="company">Description</label>
         <input type="text" id="Description" name="Description">
+        
 
 
 
@@ -49,7 +54,7 @@ $resultat = $query->fetchAll();
 
     </form>
 </div>
-
+<!--Ajout d'information du formulaire-->
 <?php
 
 if (isset($_POST["name"])&& !empty($_POST["name"])){
@@ -72,23 +77,4 @@ if (isset($_POST["name"])&& !empty($_POST["name"])){
     } catch (PDOException $e) {
         echo $e;
     }
-}
-?>
-
-<div id="radioset">
-  <input type="checkbox" id="radio1" name="" value="" ><label for="radio1">Categorie Multimedia</label>
-  <input type="checkbox" id="radio2" name="" value="" ><label for="radio2">Categorie 2</label>
-  <input type="checkbox" id="radio3" name="" value="" ><label for="radio3">Categorie 3</label>
-</div>
-
-
-<?php
-$query = $bdd->query("SELECT * FROM categorie");
-
-$resultat = $query->fetchAll();
-
-foreach($_POST["options"] AS $index => $option) {
-  // example of print all checked boxes
-  print $option;
-
 }
