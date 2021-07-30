@@ -44,7 +44,7 @@ $resultat = $query->fetchAll();
         <input type="text" id="URL" name="URL" placeholder="URL">
 
         <label for="company">Description</label>
-        <input type="text" id="Description" name="Description">
+        <input type="text" id="Description" name="Description" placeholder="Description">
         
 
 
@@ -106,6 +106,8 @@ while ($donnees = $reponse-> fetch())
             <input type="text" name="url" value="<?php echo $donnees["Link_Data"]?>">
             <input type="text" name="label" value="<?php echo $donnees["Label"]?>">
             <input type="submit"  name="submit" value="Modifier">
+            <input type="hidden" name='delete' id='delete' value=" . $ligne['id'] . " />
+            <button class="suppr">Supprimer</button>
         </form>
     </div>
     <?php
@@ -117,3 +119,4 @@ if (isset($_GET["id"])) {
     $stmt->execute();
     $stmt->closeCursor();    
 };
+

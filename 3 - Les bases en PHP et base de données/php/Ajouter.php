@@ -5,33 +5,7 @@ try {
     die('Erreur : ' . $e->getMessage());
 }
 
-$query = $bdd->query("SELECT * FROM bookmarks");
-
-$resultat = $query->fetchAll();
-
 ?>
-<table>
-    <thead>
-        <tr>
-            <td>Nom</td>
-            <td>URL</td>
-            <td>Commentaire</td>
-        </tr>
-    </thead>
-    <tbody>
-    
-        <?php
-        foreach ($resultat as $key => $variable) {
-
-            echo "<tr>";
-            echo "<td>" . $resultat[$key]['Fav_Name'] . "</td>";
-            echo "<td>" . $resultat[$key]['Link_Data'] . "</td>";
-            echo "<td>" . $resultat[$key]['Label'] . "</td>";
-            echo "<tr>";
-        }
-        ?>
-    </tbody>
-</table>
 <!--LE FORMULAIRE-->
 <div class="container">
     <form method="post" action="">
@@ -48,7 +22,7 @@ $resultat = $query->fetchAll();
 
 
 
-        <input type="submit"  name="submit" value="Envoyer">
+        <input  class="btn btn-secondary btn-sm" type="submit"  name="submit" value="Envoyer">
 
     </form>
 </div>
