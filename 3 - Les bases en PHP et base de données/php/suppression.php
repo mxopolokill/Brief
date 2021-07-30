@@ -10,12 +10,6 @@
 </head>
 <body>
     <?php
-try{
-    $bdd = new PDO("mysql:host=localhost;dbname=bookmark","root","");    
-}
-catch(PDOException $e){
-    echo $e->getMessage();
-}
 
 $reponse = $bdd->query('SELECT Fav_Name, Link_Data, Label, id FROM bookmarks');
 
@@ -24,7 +18,6 @@ $stmt = $bdd->prepare("DELETE FROM bookmarks WHERE id=:id");
 $stmt->bindParam(':id', $_POST['id']);
 $stmt->execute();
 ?>
-<input class="btn btn-primary" type=button onclick=window.location.href='index.php'; value="Retour page précedente"/>
 </body>
 </html>
 

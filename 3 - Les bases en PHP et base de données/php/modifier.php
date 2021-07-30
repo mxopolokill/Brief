@@ -1,9 +1,5 @@
 <?php
-try {
-    $bdd = new PDO("mysql:host=localhost;dbname=bookmark", "root", "");
-} catch (PDOException $e) {
-    echo $e->getMessage();
-}
+
 
 $reponse = $bdd->query('SELECT Fav_Name, Link_Data, Label, id FROM bookmarks');
 
@@ -17,15 +13,19 @@ $stmt->execute();
 
 while ($donnees = $reponse->fetch()) {
 ?>
-    <div class="case">
+<div class="container">
+    <div class="">
         <form method="post">
             <input type="hidden" name="id" value="<?php echo $donnees["id"] ?>">
-            <input type="text" name="name" value="<?php echo $donnees["Fav_Name"] ?>">
-            <input type="text" name="url" value="<?php echo $donnees["Link_Data"] ?>">
-            <input type="text" name="label" value="<?php echo $donnees["Label"] ?>">
-            <input  class="btn btn-secondary btn-sm" type="submit" name="submit" value="Modifier">
+         NOM <input class="form-control my-2  bg-primary text-white" type="text" name="name" value="<?php echo $donnees["Fav_Name"] ?>">
+           URL <input class="form-control my-2 bg-primary text-white" type="text" name="url" value="<?php echo $donnees["Link_Data"] ?>">
+          Description     <input class="form-control my-2 bg-primary text-white" type="text" name="label" value="<?php echo $donnees["Label"] ?>">
+          <div class="d-grid gap-2"> 
+          <input  class="btn btn-secondary btn-sm" type="submit" name="submit" value="Modifier">
+          </div>
         </form>
     </div>
+</div>
 <?php
 }
 ?>

@@ -10,27 +10,14 @@
     <title>Bookmark</title>
    
 </head>
-<body>
-    
-</body>
-</html>
+<body class="container">
 <?php
-try {
-    $bdd = new PDO('mysql:host=localhost;dbname=bookmark;charset=utf8', 'root', '');
-} catch (PDOException $e) {
-    die('Erreur : ' . $e->getMessage());
-}
-?>
-
-<tr>
-<td>Nom</td>
-<td>URL</td>
-<td>Commentaire</td>
-</tr>
-
-<?php
+include("header.php");
 include("connexion.php");
 include("modifier.php"); 
 include("ajouter.php"); 
+include("footer.php");
 ?>
-<input class="btn btn-primary" type=button onclick=window.location.href='delete.php'; value="Supprimer valeur"/>
+</body>
+</html>
+

@@ -1,29 +1,33 @@
-<?php
-try {
-    $bdd = new PDO('mysql:host=localhost;dbname=bookmark;charset=utf8', 'root', '');
-} catch (PDOException $e) {
-    die('Erreur : ' . $e->getMessage());
-}
-
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
 <!--LE FORMULAIRE-->
 <div class="container">
     <form method="post" action="">
-
-        <label for="name">Nom</label>
-        <input type="text" id="name" name="name" placeholder="Nom favoris">
+        
+        <label for="name">Nom - Ajouter un URL</label>
+        <input class="form-control  bg-primary text-white" type="text" id="name" name="name" placeholder="Nom favoris">
 
         <label for="email">URL</label>
-        <input type="text" id="URL" name="URL" placeholder="URL">
+        <input class="form-control  bg-primary text-white" type="text" id="URL" name="URL" placeholder="URL">
 
         <label for="company">Description</label>
-        <input type="text" id="Description" name="Description">
+        <input  class="form-control my-2  bg-primary text-white" type="text" id="Description" name="Description" placeholder="Description">
         
 
 
-
+        <div class="d-grid gap-2 my-2">
         <input  class="btn btn-secondary btn-sm" type="submit"  name="submit" value="Envoyer">
-
+        </div>
     </form>
 </div>
 <?php
@@ -49,3 +53,4 @@ if (isset($_POST["name"])&& !empty($_POST["name"])){
         echo $e;
     }
 }
+?>
