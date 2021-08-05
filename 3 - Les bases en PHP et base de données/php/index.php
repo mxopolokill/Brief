@@ -13,9 +13,13 @@
 <body class="container">
 <?php
 include("header.php");
+
 include("connexion.php");
+
 include("modifier.php"); 
+
 include("ajouter.php"); 
+
 include("footer.php");
 ?>
 </body>

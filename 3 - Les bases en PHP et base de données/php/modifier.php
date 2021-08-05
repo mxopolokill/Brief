@@ -13,11 +13,17 @@ $stmt->execute();
 
 while ($donnees = $reponse->fetch()) {
 ?>
+
 <div class="container">
+
     <div class="">
+
         <form method="post">
+
             <input type="hidden" name="id" value="<?php echo $donnees["id"] ?>">
+
          NOM <input class="form-control my-2  bg-primary text-white" type="text" name="name" value="<?php echo $donnees["Fav_Name"] ?>">
+         
            URL <input class="form-control my-2 bg-primary text-white" type="text" name="url" value="<?php echo $donnees["Link_Data"] ?>">
           Description     <input class="form-control my-2 bg-primary text-white" type="text" name="label" value="<?php echo $donnees["Label"] ?>">
           <div class="d-grid gap-2"> 
