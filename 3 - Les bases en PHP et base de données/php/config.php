@@ -1,3 +1,4 @@
+<!--Connection PDO-->
 <?php
 $dsn = 'mysql:dbname=bookmark;host=localhost';
 $user = 'root';

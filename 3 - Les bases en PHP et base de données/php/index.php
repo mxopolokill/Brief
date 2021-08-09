@@ -1,3 +1,4 @@
+<!--Fonction de connexion a utilisateur -->
 <?php
 session_start();
 require_once('config.php');
@@ -22,17 +23,17 @@ if(isset($_POST['submit']))
 				{
 					unset($getRow['password']);
 					$_SESSION = $getRow;
-					header('location:Page 1/index.php');
+					header('location:index2.php');
 					exit();
 				}
 				else
 				{
-					$errors[] = "mauvais Email or Password";
+					$errors[] = "mauvais Email &  Password";
 				}
 			}
 			else
 			{
-				$errors[] = "mauvais Email or Password";
+				$errors[] = "mauvais Email & Password";
 			}
 			
 		}
@@ -44,12 +45,12 @@ if(isset($_POST['submit']))
 	}
 	else
 	{
-		$errors[] = "Email est Password are required";	
+		$errors[] = "Email est Password requis";	
 	}
 
 }
 ?>
-
+<!--Page Main pour connexion -->
 <!doctype html>
 <html>
 <head>

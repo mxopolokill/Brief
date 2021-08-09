@@ -1,3 +1,4 @@
+<!--Page de suppresion bookmark-->
 <!DOCTYPE html>
 <html lang="en">
 <head>

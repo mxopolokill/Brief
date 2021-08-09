@@ -30,6 +30,9 @@
         </div>
     </form>
 </div>
+
+
+<!--Fonction D'ajout-->
 <?php
 
 if (isset($_POST["name"])&& !empty($_POST["name"])){

@@ -9,6 +9,8 @@
     <title>Suppression Bookmark</title>
 </head>
 <body>
+
+<!--Fonction Suppression-->
     <?php
 
 $reponse = $bdd->query('SELECT Fav_Name, Link_Data, Label, id FROM bookmarks');
