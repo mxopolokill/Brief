@@ -1,0 +1,10 @@
+.BoutonHeader2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+div{
+    display: flex;
+    flex-direction: row;
+}
