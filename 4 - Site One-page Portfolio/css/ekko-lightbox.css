@@ -1,4 +1,3 @@
-
 .ekko-lightbox-container {
   position: relative;
 }
@@ -24,9 +23,9 @@
   opacity: 0;
   filter: dropshadow(color=#000000, offx=2, offy=2);
   -webkit-transition: opacity 0.5s;
-     -moz-transition: opacity 0.5s;
-       -o-transition: opacity 0.5s;
-          transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
 }
 
 .ekko-lightbox-nav-overlay a:empty {
@@ -55,33 +54,32 @@
 .ekko-lightbox .modal-footer {
   text-align: left;
 }
-.ekko-lightbox .modal-body{
- padding:0;   
+.ekko-lightbox .modal-body {
+  padding: 0;
 }
-.ekko-lightbox .modal-header{
- text-align:center;
+.ekko-lightbox .modal-header {
+  text-align: center;
 }
 
 .ekko-lightbox .close {
-margin-top: -2px;
-position: absolute;
-top: 0;
-right: -20px;
-color: #fff;
-opacity: 1;
+  margin-top: -2px;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  color: #fff;
+  opacity: 1;
 }
 
 .fa-angle-left:before {
-content: "\f104";
-position: absolute;
-top: 50%;
-margin-top: -15px;
-
+  content: "\f104";
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
 }
 .fa-angle-right:before {
-content: "\f105";
-position: absolute;
-top: 50%;
-margin-top: -15px;
-    margin-left: -15px;
+  content: "\f105";
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  margin-left: -15px;
 }
