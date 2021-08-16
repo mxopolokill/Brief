@@ -1,5 +1,5 @@
 (function () {
-  "use strict";
+ "use strict";
 
   $(".navbar-brand, .top-scroll a").click(function () {
 
@@ -23,7 +23,7 @@
     }
   });
   
-  var navbarHeight = $(".main-nav").height();
+ var navbarHeight = $(".main-nav").height();
   $("a.btnAbout, a.hire").click(function () {
     if (
       location.pathname.replace(/^\//, "") ==
@@ -47,13 +47,10 @@
   });
   //flexslide
 
-  //menu scroll
-  $(".navbar-nav").onePageNav({
 
-    scrollOffset: navbarHeight,
-    scrollSpeed: 1000,
-    scrollThreshold: 0.25,
-  });
+
+    
+  
   //portfolio filtre
 
   //fonction
@@ -71,7 +68,7 @@
     $(".navbar-inverse .navbar-collapse").removeClass("in");
   });
   //contenu
-})();
+})(); 
 
 $(window).load(function () {
 
@@ -109,7 +106,10 @@ $(window).resize(function () {
   winHeight();
 });
 $(window).scroll(function () {
+  
   navScroll();
+  
+
 });
 //fonction
 
