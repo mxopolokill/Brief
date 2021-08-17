@@ -2,12 +2,14 @@
  "use strict";
 
   $(".navbar-brand, .top-scroll a").click(function () {
-
+    
     if (
       location.pathname.replace(/^\//, "") ==
         this.pathname.replace(/^\//, "") ||
       location.hostname == this.hostname
-    ) {
+    ) 
+    
+    {
       var target = $(this.hash);
       target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
       if (target.length) {
@@ -22,6 +24,7 @@
       }
     }
   });
+  
   
  var navbarHeight = $(".main-nav").height();
   $("a.btnAbout, a.hire").click(function () {
@@ -45,24 +48,27 @@
       }
     }
   });
+  
   //flexslide
 
 
+ 
 
-    
+   
   
   //portfolio filtre
 
   //fonction
-
+  
   imgHover();
   lightboxPhoto();
   winHeight();
   barScroll();
+  
   //nav container
 
   $(".navbar").sticky({ topSpacing: 0 });
-
+  $('.navbar-nav').onePageNav();
   $("ul.nav li a").click(function () {
 
     $(".navbar-inverse .navbar-collapse").removeClass("in");
