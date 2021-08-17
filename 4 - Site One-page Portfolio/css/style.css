@@ -157,6 +157,8 @@ img {
 }
 
 .navbar {
+  display: flex;
+  flex-direction: column;
   border-radius: 0px;
   min-height: 54px;
   margin-bottom: 0px;
@@ -817,11 +819,17 @@ body.modal-open {
 
 
 ._1kjZq8SW {
-  font-size: 11px;
+  font-size: 12px;
   list-style: none;
   position: relative;
+ 
   padding-left: 20px;
 }
+._30Ix8WH2{
+  padding-top: 0px !important;
+  padding-bottom: 40px !important;
+}
+
 
 li {
   display: list-item;
@@ -866,4 +874,11 @@ html {
   html {
     scroll-behavior: auto;
   }
+}
+.MXvEtw85
+{
+  font-size: 12px !important;
+}
+._30Ix8WH2{
+  font-size: 20px;
 }
