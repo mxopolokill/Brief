@@ -1,3 +1,4 @@
+
 (function () {
  "use strict";
 
@@ -48,18 +49,14 @@
       }
     }
   });
-  
-  //flexslide
+
 
 
  
 
-   
-  
-  //portfolio filtre
+
 
   //fonction
-  
   imgHover();
   lightboxPhoto();
   winHeight();
