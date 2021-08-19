@@ -23,7 +23,6 @@ body {
   top: -70px;
 }
 
-
 .grosbloc .icone .effect {
   position: absolute;
   background: #fff;
@@ -31,7 +30,6 @@ body {
   opacity: 0;
   padding: 20px 15px;
   border-radius: 10px !important;
-  
 }
 .grosbloc .icone span i {
   line-height: 60px;
