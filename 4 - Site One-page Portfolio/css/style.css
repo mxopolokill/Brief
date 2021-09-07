@@ -884,3 +884,7 @@ html {
 }
 
 
+.lnikdlin{
+  display: flex;
+  justify-content: center;
+}
