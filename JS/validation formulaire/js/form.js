@@ -8,7 +8,7 @@ const Erreur = "red";
 const valider = "green";
 
 //création évenement
-form.addEventListener("submit", function (e) {
+w
   e.preventDefault();
 
   //validation élement name
