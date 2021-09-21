@@ -110,7 +110,7 @@ function initialiser_calc(id)
         document.getElementById(id+'_resultat').focus();
         return true;
 }
-//Bind des IDS boutons 
+
 function key_detect_calc(id,evt)
 {
         if((evt.keyCode>95) && (evt.keyCode<106))
