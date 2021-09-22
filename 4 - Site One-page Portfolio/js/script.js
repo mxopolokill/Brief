@@ -2,31 +2,8 @@
 (function () {
  "use strict";
 
-  $(".navbar-brand, .top-scroll a").click(function () {
-    
-    if (
-      location.pathname.replace(/^\//, "") ==
-        this.pathname.replace(/^\//, "") ||
-      location.hostname == this.hostname
-    ) 
-    
-    {
-      var target = $(this.hash);
-      target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
-      if (target.length) {
 
-        $("html,body").animate(
-          {
-            scrollTop: target.offset().top,
-          },
-          2000
-        );
-        return false;
-      }
-    }
-  });
-  
-  
+   
  var navbarHeight = $(".main-nav").height();
   $("a.btnAbout, a.hire").click(function () {
     if (
@@ -43,13 +20,13 @@
           {
             scrollTop: target.offset().top - navbarHeight,
           },
-          2000
+          100
         );
         return false;
       }
     }
   });
-
+ 
 
 
  
@@ -153,6 +130,7 @@ function lightboxPhoto() {
     $(this).ekkoLightbox();
   });
 }
+
 function navScroll() {
 
   var top = $(window).scrollTop();
