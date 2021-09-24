@@ -1,6 +1,5 @@
 /*le style globale */
 
-
 @font-face {
   font-family: "VerelaRound";
   src: url("VarelaRound-Regular.eot");
@@ -13,7 +12,6 @@
   src: url("Lato-Bold.ttf");
 }
 
-
 html,
 body {
   height: 100%;
@@ -21,7 +19,6 @@ body {
   color: #7a7a7a;
   line-height: 24px;
 }
-
 
 h1,
 .h1,
@@ -41,7 +38,6 @@ a {
 
 img {
   max-width: 125%;
- 
 }
 #boxWrapp {
   width: 140%;
@@ -823,21 +819,17 @@ body.modal-open {
   }
 }
 
-
-
-
 ._1kjZq8SW {
   font-size: 12px;
   list-style: none;
   position: relative;
- 
+
   padding-left: 20px;
 }
-._30Ix8WH2{
+._30Ix8WH2 {
   padding-top: 0px !important;
   padding-bottom: 40px !important;
 }
-
 
 li {
   display: list-item;
@@ -868,8 +860,8 @@ li {
   background-color: #f73859;
 }
 
-
-nav, scroll-container {
+nav,
+scroll-container {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -883,16 +875,14 @@ html {
     scroll-behavior: auto;
   }
 }
-.MXvEtw85
-{
+.MXvEtw85 {
   font-size: 12px !important;
 }
-._30Ix8WH2{
+._30Ix8WH2 {
   font-size: 20px;
 }
 
-
-.lnikdlin{
+.lnikdlin {
   display: flex;
   justify-content: center;
 }
